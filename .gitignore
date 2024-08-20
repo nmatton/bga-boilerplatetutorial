@@ -1,0 +1,5 @@
+.vscode
+.sass-cache/
+.prettierrc
+deploy.sh
+phpmd.xml
