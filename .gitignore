@@ -3,3 +3,4 @@
 .prettierrc
 deploy.sh
 phpmd.xml
+backup/

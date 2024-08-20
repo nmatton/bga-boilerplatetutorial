@@ -1,4 +1,5 @@
 <?php
+
 /**
  *------
  * BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
@@ -8,19 +9,12 @@
  * See http://en.boardgamearena.com/#!doc/Studio for more information.
  * -----
  *
- * boilerplatetutorial.view.php
+ * stats.inc.php
+ *
+ * boilerplatetutorial game statistics description
  *
  */
 
-require_once APP_BASE_PATH . 'view/common/game.view.php';
+require_once 'modules/php/constants.inc.php';
 
-class view_boilerplatetutorial_boilerplatetutorial extends game_view
-{
-  function getGameName()
-  {
-    return 'boilerplatetutorial';
-  }
-  function build_page($viewArgs)
-  {
-  }
-}
+$stats_type = [];
